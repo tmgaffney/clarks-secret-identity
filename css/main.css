@@ -1,0 +1,41 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 125px;
+  padding: 25px;
+  background: url(../images/full-screen-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: block;
+  width: auto;
+  height: auto;
+  background-color: none;
+  vertical-align: center;
+  padding: 20px;
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.social-media {
+  float:right;
+  padding-right: 50px;
+}
